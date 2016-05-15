@@ -7,10 +7,10 @@ import java.util.Scanner;
 public class Program {
 	public static void main(String[] args) {
 		
-		String s1 = "Привет строковое значение";
+		String s1 = "РџСЂРёРІРµС‚ СЃС‚СЂРѕРєРѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ";
 		out.println("s1 = " + s1);
 		
-		String s2 = new String("новая строка");
+		String s2 = new String("РЅРѕРІР°СЏ СЃС‚СЂРѕРєР°");
 		out.println("s2 = " + s2);
 		
 		char ch = s1.charAt(2);
@@ -40,22 +40,22 @@ public class Program {
 		//importiruem_biblioteku_sozdaem_skanner
 		/*
 		Scanner sc = new Scanner(System.in);
-		out.print("Введите строку: ");
+		out.print("Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ");
 		String s = sc.nextLine();
 		out.println(s);
 		
 		String s3 = "zvm89";
 		boolean rs = (s.equals(s3));
-		out.println("результат сравнения = " + s + " и " + s3 + " дает: " + rs);
+		out.println("СЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ = " + s + " Рё " + s3 + " РґР°РµС‚: " + rs);
 		*/
 		
 		//privet_v_sisteme_odin_a_ssylki_na_nego_dve
-		//String st1 = "Привет"; //true
-		String st1 = new String("Привет"); //false
-//		String st1 = "При" + "вет"; //true
-//		String st1_1 = "вет";
-//		String st1 = "При"+st1_1; //false
-		String st2 = "Привет";
+		//String st1 = "РџСЂРёРІРµС‚"; //true
+		String st1 = new String("РџСЂРёРІРµС‚"); //false
+//		String st1 = "РџСЂРё" + "РІРµС‚"; //true
+//		String st1_1 = "РІРµС‚";
+//		String st1 = "РџСЂРё"+st1_1; //false
+		String st2 = "РџСЂРёРІРµС‚";
 		
 		boolean znachenie_sravneniya_dvuh_strokovyh_peremennyh = (st1 == st2);
 		
@@ -64,10 +64,10 @@ public class Program {
 		{
 			int a = 5;
 			int b = 7;
-			out.printf("a = %d;\nb = %d\n", a,b); // %d - целочисленное значение
+			out.printf("a = %d;\nb = %d\n", a,b); // %d - С†РµР»РѕС‡РёСЃР»РµРЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ
 			
-			String name = "Владимир";
-			String formatirovannoe_imya = String.format("Привет %s!", name); //Format String Syntax - https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html
+			String name = "Р’Р»Р°РґРёРјРёСЂ";
+			String formatirovannoe_imya = String.format("РџСЂРёРІРµС‚ %s!", name); //Format String Syntax - https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html
 			out.println(formatirovannoe_imya);
 		}
 		
